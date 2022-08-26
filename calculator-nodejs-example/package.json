@@ -1,0 +1,15 @@
+{
+  "name": "calculator-nodejs-example",
+  "version": "1.0.0",
+  "description": "Example of an web app using nodejs and express",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonatas Rossetto",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  }
+}
