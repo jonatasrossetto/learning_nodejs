@@ -24,12 +24,9 @@ app.post("/",function(req,res){
     https.get(url, function(response){
         console.log(response.statusCode);
         response.on('data', function(data) {
-            console.log(data);
-            console.log('---------------');
             process.stdout.write(data);
             console.log('---------------');
             weatherData = JSON.parse(data);
-            console.log(weatherData);
             console.log('---------------');
             console.log('Temperatura: '+ weatherData.main.temp);
             console.log('Cidade: '+ weatherData.name);
